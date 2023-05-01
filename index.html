@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--============================= UNICON ================================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--============================= SWIPER CSSS ================================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--============================= CSS ================================-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>Portfolio Web</title>
+</head>
+<body>
+    <!--============================= HEADER ================================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Shashank</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                   <!---- <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                        </a>
+                    </li> -->
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--============================= MAIN ================================-->
+    <main class="main">
+        <!--======================= HOME =============================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/shashankbp15/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="https://github.com/Shashank-BP" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="home__img">
+                        <img src="assets/img/pic2.jpg" alt="">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, It's me Shashank</h1>
+                        <h3 class="home__subtitle">And I'm a <span class="multiple-text"></span></h3>
+                        <p class="home__description">As a mechanical engineering graduate turned data analyst, I combine my technical knowledge 
+                            with analytical skills to solve complex problems. My expertise in data analysis enables me to make informed decisions,
+                             optimize processes, and improve business operations.</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--======================= ABOUT =============================-->
+        <section class="abuot section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+                <img src="assets/img/pic1.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">As a highly adaptable and quick learner, I am eager to leverage my skills in teamwork, leadership, 
+                        time management, and multitasking to make a valuable contribution to a dynamic organization. With a strong foundation in 
+                        technical skills such as MySQL, Excel, Python, Tableau, and Power BI, and a solid understanding of statistical concepts, 
+                        I am well-equipped to tackle challenges and deliver results. With a keen eye for detail and a passion for problem-solving, 
+                        I am committed to continuous learning and growth, and am excited to apply my skills to drive success in a data-driven 
+                        industry.</p>
+
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">Fresher</span>
+                                <span class="about__info-name">In <br> Job Experience</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">3+</span>
+                                <span class="about__info-name">Completed <br> Projects</span>
+                            </div>
+                        </div>
+
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/Shashank DA.pdf" class="button button--flex">
+                                Download CV <i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!--======================= SKILLS =============================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My Technical Skills</span>
+
+            <div class="skills__container container grid">
+                <!--=============== SKILLS 1 ===================-->
+                <div class="skills__content">
+                    <div>
+                        <i class="uil uil-database skills__icon"></i>
+                        <h3 class="skills__title">MySQL</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link skills__button">
+                        View more
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="skills__modal">
+                        <div class="skills__modal-content">
+                            <h4 class="sercices__modal-title">MySQL</h4>
+                            <i class="uil uil-times skills__modal-close"></i>
+
+                            <ul class="skills__modal-skills grid">
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Knowledge of DQL, DCL, DDL, DML & TCL.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Joins (inner, outer, left, right).</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Stored procedures and Functions.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Views.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Triggers.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Importing and exporting data.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Subqueries.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Partition By.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--=============== SKILLS 2 ===================-->
+                <div class="skills__content">
+                    <div>
+                        <i class="uil uil-grid skills__icon"></i>
+                        <h3 class="skills__title">Excel</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link skills__button">
+                        View more
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="skills__modal">
+                        <div class="skills__modal-content">
+                            <h4 class="sercices__modal-title">Excel</h4>
+                            <i class="uil uil-times skills__modal-close"></i>
+
+                            <ul class="skills__modal-skills grid">
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Strong hold on Excel formulas.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Conditional Formatting.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Data Validation.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>VLOOKUP, HLOOKUP and XLOOKUP.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Power Query and Power Pivot.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Charting and Graphing.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Basic knowledge of Macros and VBA.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Creating dashboards and Visualization.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--=============== SKILLS 3 ===================-->
+                <div class="skills__content">
+                    <div>
+                        <i class="uil uil-brackets-curly skills__icon"></i>
+                        <h3 class="skills__title">Python</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link skills__button">
+                        View more
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="skills__modal">
+                        <div class="skills__modal-content">
+                            <h4 class="sercices__modal-title">Python</h4>
+                            <i class="uil uil-times skills__modal-close"></i>
+
+                            <ul class="skills__modal-skills grid">
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Basic knowledge of Variables.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Basic knowledge of Data Types.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Basic knowledge of Functions.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Basic knowledge of Data Structures.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Basic knowledge of loops.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Knowledge of libraries like Pandas and NumPy.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Knowledge of Matplotlib and Seaborn.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--=============== SKILLS 4 ===================-->
+                <div class="skills__content">
+                    <div>
+                        <i class="uil uil-money-bill-stack skills__icon"></i>
+                        <h3 class="skills__title">Tableau</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link skills__button">
+                        View more
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="skills__modal">
+                        <div class="skills__modal-content">
+                            <h4 class="sercices__modal-title">Tableau</h4>
+                            <i class="uil uil-times skills__modal-close"></i>
+
+                            <ul class="skills__modal-skills grid">
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Creating Interactive Dashboards.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Creating Visualizations (bar chart etc.).</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Basic knowledge of Filters, Quick filters and Sets.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Basic knowledge of Parameters.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>TBasic knowledge of Groups.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Basic knowledge of Calculated fields.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Basic knowledge of Data Joining and Blending.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--=============== SKILLS 5 ===================-->
+                <div class="skills__content">
+                    <div>
+                        <i class="uil uil-chart skills__icon"></i>
+                        <h3 class="skills__title">Power Bi</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link skills__button">
+                        View more
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="skills__modal">
+                        <div class="skills__modal-content">
+                            <h4 class="sercices__modal-title">Power Bi</h4>
+                            <i class="uil uil-times skills__modal-close"></i>
+
+                            <ul class="skills__modal-skills grid">
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Data Modelling.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Data Visualizations.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Basic knowledge of DAX expressions.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Dashboard development.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Report creation.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Publishing and sharing.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--=============== SKILLS 6 ===================-->
+                <div class="skills__content">
+                    <div>
+                        <i class="uil uil-analytics skills__icon"></i>
+                        <h3 class="skills__title">Statistics</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link skills__button">
+                        View more
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="skills__modal">
+                        <div class="skills__modal-content">
+                            <h4 class="sercices__modal-title">Statistics</h4>
+                            <i class="uil uil-times skills__modal-close"></i>
+
+                            <ul class="skills__modal-skills grid">
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Knowledge of Random variable.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Knowledge of Probability, Probability distribution.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Knowledge of Normal distribution.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Knowledge of Data Cleaning.</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Knowledge of Imputation techniques(mean and median).</p>
+                                </li>
+                                <li class="skills__modal-skill">
+                                    <i class="uil uil-check-circle skills__modal-icon"></i>
+                                    <p>Knowledge of Correlation Analysis.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================== QUALIFICATION ======================-->
+        <section class="qualification section">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My education journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#internship">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Internship
+                    </div>
+
+                </div>
+
+                <div class="qualification__sections">
+                    <!--=========== QUALIFICATION CONTENT 1 ==============-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!--=========== QUALIFICATION 1 ============-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title" id="course">Certified Data Analytics Course</h3>
+                                <span class="qualification__subtitle" id="course">Excelr Raising Excellency</span>
+                                <div class="qualification__calender" id="course">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2022 - 2023
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+
+                            </div>
+                        </div>
+
+                        <!--=========== QUALIFICATION 2 ============-->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title" id="degree">Bachelor’s in Mechanical Engineering</h3>
+                                <span class="qualification__subtitle" id="degree">Adichunchanagiri Institute of Technology</span>
+                                <div class="qualification__calender" id="degree">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Sep ’19 - Jul ‘22
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--=========== QUALIFICATION 3 ============-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title" id="diploma">Diploma in Mechanical Engineering</h3>
+                                <span class="qualification__subtitle" id="diploma">DACG Government Polytechnic</span>
+                                <div class="qualification__calender" id="diploma">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Jun ’16 – Apr ‘19
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+
+                            </div>
+                        </div>
+
+                        <!--=========== QUALIFICATION 4 ============-->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title" id="school">10th Standard</h3>
+                                <span class="qualification__subtitle" id="school">Mountain View School</span>
+                                <div class="qualification__calender" id="school">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Jul ’15 - Apr ‘16
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--=========== QUALIFICATION CONTENT 2 ==============-->
+                    <div class="qualification__content" data-content id="internship">
+                        <!--=========== QUALIFICATION 1 ============-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">HR Analytics</h3>
+                                <span class="qualification__subtitle">Excelr Raising Excellency</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    3 Months
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+
+                            </div>
+                        </div>
+
+                        <!--=========== QUALIFICATION 2 ============-->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Bio-Diesel production, testing and awareness</h3>
+                                <span class="qualification__subtitle">Adichunchanagiri Institute of Technology</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    1 Month
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--======================= PROJECTS =============================-->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="projects__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!--======================= PROJECTS 1 =============================-->
+                    <div class="projects__content grid swiper-slide">
+                        <img src="assets/img/movies_correlation.png" alt="" class="projects__img">
+
+                        <div class="projects__data">
+                            <h3 class="projects__title">Movies Correlation</h3>
+                            <p class="projects__description">The project aimed to explore the relationship between movie budget, votes and gross 
+                                earnings using a dataset of over 7000 movies. Through data cleaning, visualization and correlation analysis.</p>
+                            <a href="https://github.com/Shashank-BP/DataAnalytics-Projects/blob/main/Movie_correlation.ipynb" class="button button--flex button--small projects__button">
+                                View project
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--======================= PROJECTS 2 =============================-->
+                    <div class="projects__content grid swiper-slide">
+                        <img src="assets/img/Customer-Segmentation.png" alt="" class="projects__img">
+
+                        <div class="projects__data">
+                            <h3 class="projects__title">Customer Segmentation</h3>
+                            <p class="projects__description">The project aimed to identify distinct groups of customers based on their purchase 
+                                behavior, and geography. Using a combination of clustering techniques and statistical analysis.</p>
+                            <a href="https://github.com/Shashank-BP/DataAnalytics-Projects/blob/main/Customer_segmentation.sql" class="button button--flex button--small projects__button">
+                                View project
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-projects-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-projects-icon"></i>
+                </div>
+
+                <!-- Add pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--======================= CONTACTME =============================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+
+                <div class="contact__box">
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle">+91 7892656105</span>
+                        </div>
+                        <i class="uil uil-copy contact__icon copy__icon" id="copy-phone-link"></i>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">shashankbp15@gmail.com</span>
+                        </div>
+                        <i class="uil uil-copy contact__icon copy__icon" id="copy-email-link"></i>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Chikkamagaluru - 577102 <br> Karnataka <br> India</span>
+                        </div>
+                        <i class="uil uil-copy contact__icon copy__icon" id="copy-address-link"></i>
+                    </div>
+                </div>
+
+               <!-- <form action="" class="contact__form grid">
+                    <div class="contact__input grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Subject</label>
+                        <input type="text" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Send Message
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </form>------->
+                <!--=============Contact page image==============================-->
+                <div class="contact__image">
+                    <img src="assets/img/contact page img.jpg" alt="Contact image">
+                </div>
+                
+            </div>
+        </section>
+
+    </main>
+    <!--============================= FOOTER ================================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Shashank</h1>
+                    <span class="footer__subtitle">Data Analyst</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contactme</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+    <!--============================= SCROLL TOP ================================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--============================= SWIPER JS ================================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--============================== SCROOL REVEAL ===========================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--============================= MAIN JS ================================-->
+    <script src="assets/js/main.js"></script>
+
+    <!--============================= CONTACT INFO COPY ================================-->
+    <!--============ CONTACT INFO PHONE ============-->
+    <script>
+        const phone = "+91 7892656105";
+        const copyPhoneLink = document.getElementById("copy-phone-link");
+
+        copyPhoneLink.addEventListener("click", function(event) {
+        event.preventDefault();
+        navigator.clipboard.writeText(phone);
+        alert("Phone number copied to clipboard!");
+        });
+            
+        const email = "shashankbp15@gmail.com";
+        const copyEmailLink = document.getElementById("copy-email-link");
+
+        copyEmailLink.addEventListener("click", function(event) {
+        event.preventDefault();
+        navigator.clipboard.writeText(email);
+        alert("EmailID copied to clipboard!");
+        });
+
+        const address = "Chikkamagaluru-577102, Karnataka, India";
+        const copyAddressLink = document.getElementById("copy-address-link");
+
+        copyAddressLink.addEventListener("click", function(event) {
+        event.preventDefault();
+        navigator.clipboard.writeText(address);
+        alert("Location copied to clipboard!");
+        });
+    </script>
+
+     <!--============================= MULTIPLE TEXT ================================-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script>
+    const typed = new Typed('.multiple-text', {
+        strings: ['Data Analyst', 'Mechanical Engineer'],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true
+    });
+    </script>
+
+</body>
+</html>
